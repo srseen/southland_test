@@ -1,0 +1,14 @@
+{
+  "name": "southland-programmer-assessment",
+  "version": "1.0.0",
+  "description": "คำตอบแบบทดสอบ Programmer Assessment Test - บริษัท เซาท์แลนด์ รับเบอร์ จำกัด",
+  "main": "index.js",
+  "scripts": {
+    "q2": "node คำตอบ/2/index.js",
+    "q3": "node คำตอบ/3/index.js",
+    "q4": "node คำตอบ/4/index.js",
+    "test:all": "echo \"=== ข้อ 2 ===\" && node คำตอบ/2/index.js && echo. && echo \"=== ข้อ 3 ===\" && node คำตอบ/3/index.js && echo. && echo \"=== ข้อ 4 ===\" && node คำตอบ/4/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
